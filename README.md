@@ -7,3 +7,9 @@ a stdin to lower pipe
 go build -o lower main.go && sudo mv lower /usr/bin
 ```
  
+## use
+
+```shell
+$ echo "HeLlO WoRlD" | go run main.go 
+hello world
+```
