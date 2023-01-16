@@ -12,5 +12,5 @@ func main() {
 	if err != nil {
 		_, _ = fmt.Fprint(os.Stderr, err)
 	}
-	fmt.Print(strings.ToLower(string(data)))
+	_, _ = fmt.Fprint(os.Stdout, strings.ToLower(string(data)))
 }
